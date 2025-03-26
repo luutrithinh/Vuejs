@@ -1,7 +1,8 @@
-<script>
+<script setup>
 const thinh ="thằng nào đọc cái này là gay";
 console.log(thinh);
 import '../assets/font/stylesheet.css'
+import S_Banner from './Banner.vue'
 </script>
 
 <template>
@@ -15,7 +16,10 @@ import '../assets/font/stylesheet.css'
     <div>
     <img class="Iphone" src="../assets/Iphone Image.png" alt="">
    </div>
-   </div>
+</div>
+<div>
+    <S_Banner></S_Banner>
+</div>
    
 </template>
 <style>

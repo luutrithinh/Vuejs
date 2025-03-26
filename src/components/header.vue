@@ -1,4 +1,5 @@
-<script>
+<script setup>
+
 </script>
 <template>
     <div class="Top">
@@ -18,7 +19,9 @@
             <img class="Icon_Cart" src="../assets/Cart.png" alt="">
             <img class="Icon_User" src="../assets/User.png" alt="">
         </div>
+        
     </div>
+
 </template>
 <style>
 .Top {

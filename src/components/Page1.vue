@@ -3,6 +3,7 @@ const thinh ="thằng nào đọc cái này là gay";
 console.log(thinh);
 import '../assets/font/stylesheet.css'
 import S_Banner from './Banner.vue'
+import Category from './Category.vue';
 </script>
 
 <template>
@@ -19,6 +20,8 @@ import S_Banner from './Banner.vue'
 </div>
 <div>
     <S_Banner></S_Banner>
+    <br>
+    <Category></Category>
 </div>
    
 </template>
